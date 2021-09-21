@@ -24,7 +24,7 @@ namespace SubmitBatchManagedIdentity
 
             TableClient = new TableClient(new Uri(StorageUri), TableName, tokenCredential);
 
-            var entities = GenerateEntities<SimplePerfEntity>(212);
+            var entities = GenerateEntities<SimplePerfEntity>(21);
 
             try
             {
